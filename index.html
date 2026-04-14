@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TCSA — JOIN THE FLOCK</title>
+<title>TCSA â JOIN THE FLOCK</title>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:wght@400;700&family=Oswald:wght@700;900&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
@@ -17,7 +17,7 @@
 html{scroll-behavior:smooth;}
 body{background:var(--w);color:var(--k);font-family:'Space Mono',monospace;overflow-x:hidden;}
 
-/* CURSOR — desktop only */
+/* CURSOR â desktop only */
 @media(pointer:fine){
   body{cursor:none;}
   #cur{position:fixed;width:26px;height:26px;background:var(--r);border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);mix-blend-mode:multiply;transition:width .15s,height .15s;will-change:left,top;}
@@ -32,14 +32,14 @@ body{background:var(--w);color:var(--k);font-family:'Space Mono',monospace;overf
 ::-webkit-scrollbar-track{background:var(--w);}
 ::-webkit-scrollbar-thumb{background:var(--k);}
 
-/* ═══ TICKER ═══ */
+/* âââ TICKER âââ */
 .ticker{background:var(--r);border-bottom:var(--bdr);overflow:hidden;white-space:nowrap;padding:10px 0;position:sticky;top:0;z-index:300;}
 .t-track{display:inline-block;animation:march 22s linear infinite;}
 .t-track span{font-family:'Bebas Neue',sans-serif;font-size:clamp(14px,3vw,21px);letter-spacing:3px;color:var(--y);padding:0 28px;}
-.t-track span::after{content:' 🐔 ';}
+.t-track span::after{content:' ð ';}
 @keyframes march{from{transform:translateX(0);}to{transform:translateX(-50%);}}
 
-/* ═══ HERO ═══ */
+/* âââ HERO âââ */
 .hero{display:grid;grid-template-columns:1fr 1fr;min-height:100svh;border-bottom:var(--bdr);}
 .hero-l{padding:clamp(24px,5vw,60px) clamp(18px,4vw,48px);border-right:var(--bdr);display:flex;flex-direction:column;justify-content:space-between;gap:24px;}
 .eyebrow{font-size:10px;letter-spacing:2px;text-transform:uppercase;border:var(--bdr);display:inline-block;padding:6px 10px;background:var(--y);}
@@ -58,16 +58,16 @@ body{background:var(--w);color:var(--k);font-family:'Space Mono',monospace;overf
 .stamp span{font-family:'Bebas Neue',sans-serif;font-size:clamp(9px,1.2vw,13px);letter-spacing:1px;color:var(--y);text-align:center;line-height:1.4;animation:spinr 12s linear infinite;}
 @keyframes spinr{to{transform:rotate(-360deg);}}
 
-/* ═══ PARADE ═══ */
+/* âââ PARADE âââ */
 .parade{background:var(--k);border-bottom:var(--bdr);overflow:hidden;padding:16px 0;white-space:nowrap;}
 .p-track{display:inline-block;animation:march 8s linear infinite;}
 .p-track span{font-size:clamp(24px,5vw,44px);padding:0 8px;}
 
-/* ═══ SCROLL REVEAL ═══ */
+/* âââ SCROLL REVEAL âââ */
 .sr{opacity:0;transform:translateY(28px);transition:opacity .65s ease,transform .65s ease;}
 .sr.on{opacity:1;transform:translateY(0);}
 
-/* ═══ MANIFESTO ═══ */
+/* âââ MANIFESTO âââ */
 .manifesto{border-bottom:var(--bdr);}
 .mline{padding:clamp(16px,3vw,30px) clamp(16px,4vw,48px);border-bottom:var(--bdr);display:flex;align-items:center;gap:clamp(10px,2vw,22px);overflow:hidden;}
 .mline:last-child{border-bottom:none;}
@@ -79,7 +79,7 @@ body{background:var(--w);color:var(--k);font-family:'Space Mono',monospace;overf
 .mline:nth-child(even) .mtext em{color:var(--k);text-decoration:underline 4px solid;}
 .micon{font-size:clamp(20px,3vw,34px);flex-shrink:0;margin-left:auto;}
 
-/* ═══ GALLERY ═══ */
+/* âââ GALLERY âââ */
 .gallery{display:grid;grid-template-columns:repeat(4,1fr);height:clamp(130px,24vw,290px);border-bottom:var(--bdr);}
 .gimg{overflow:hidden;border-right:var(--bdr);position:relative;}
 .gimg:last-child{border-right:none;}
@@ -88,7 +88,7 @@ body{background:var(--w);color:var(--k);font-family:'Space Mono',monospace;overf
 .gimg-lbl{position:absolute;bottom:0;left:0;right:0;background:var(--k);color:var(--y);font-family:'Bebas Neue',sans-serif;font-size:clamp(9px,1.3vw,14px);letter-spacing:2px;padding:5px 9px;transform:translateY(100%);transition:transform .25s;}
 .gimg:hover .gimg-lbl{transform:translateY(0);}
 
-/* ═══ STATS COUNTER ═══ */
+/* âââ STATS COUNTER âââ */
 .stats{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:var(--bdr);}
 .stat-block{padding:clamp(28px,4vw,56px) clamp(16px,3vw,40px);border-right:var(--bdr);text-align:center;}
 .stat-block:last-child{border-right:none;}
@@ -98,7 +98,7 @@ body{background:var(--w);color:var(--k);font-family:'Space Mono',monospace;overf
 .stat-block:nth-child(even) .stat-num{color:var(--y);}
 .stat-label{font-size:clamp(9px,1.2vw,11px);letter-spacing:3px;text-transform:uppercase;opacity:.65;margin-top:8px;line-height:1.5;}
 
-/* ═══ SCROLLYTELLING ═══ */
+/* âââ SCROLLYTELLING âââ */
 .scrolly{min-height:400vh;position:relative;border-bottom:var(--bdr);}
 .sy-sticky{position:sticky;top:0;height:100svh;display:flex;align-items:center;justify-content:center;overflow:hidden;}
 .sy-bg{position:absolute;inset:0;transition:background .5s ease;}
@@ -113,7 +113,7 @@ body{background:var(--w);color:var(--k);font-family:'Space Mono',monospace;overf
 .sy-dot{width:10px;height:10px;border-radius:50%;background:rgba(0,0,0,.15);border:2px solid currentColor;transition:background .3s;}
 .sy-dot.on{background:currentColor;}
 
-/* ═══ ROLES ═══ */
+/* âââ ROLES âââ */
 .roles-head{display:grid;grid-template-columns:1fr 1fr;border-bottom:var(--bdr);}
 .rh-l{padding:clamp(28px,5vw,60px) clamp(16px,4vw,48px);border-right:var(--bdr);}
 .rh-r{padding:clamp(28px,5vw,60px) clamp(16px,4vw,48px);background:var(--r);color:#fff;display:flex;align-items:flex-end;}
@@ -132,13 +132,13 @@ body{background:var(--w);color:var(--k);font-family:'Space Mono',monospace;overf
 .rb-pills span{font-size:9px;letter-spacing:2px;text-transform:uppercase;border:2px solid currentColor;padding:3px 7px;opacity:.65;}
 .rb-arrow{display:inline-block;background:var(--k);color:#fff;font-family:'Bebas Neue',sans-serif;font-size:12px;letter-spacing:2px;padding:8px 14px;text-decoration:none;transition:background .2s,color .2s;}
 
-/* ═══ PHOTO DIVIDER ═══ */
+/* âââ PHOTO DIVIDER âââ */
 .phdiv{position:relative;height:clamp(180px,30vw,440px);overflow:hidden;border-bottom:var(--bdr);}
 .phdiv img{width:100%;height:100%;object-fit:cover;filter:grayscale(20%) contrast(1.1);}
 .phdiv-txt{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.5);}
 .phdiv-txt span{font-family:'Bebas Neue',sans-serif;font-size:clamp(28px,8vw,108px);color:#fff;letter-spacing:4px;text-shadow:0 0 60px rgba(232,25,11,.9);text-align:center;padding:0 20px;}
 
-/* ═══ CRITERIA ═══ */
+/* âââ CRITERIA âââ */
 .crit-wrap{display:grid;grid-template-columns:minmax(150px,26%) 1fr;border-bottom:var(--bdr);}
 .crit-pin{background:var(--r);padding:clamp(26px,5vw,72px) clamp(14px,3.5vw,44px);border-right:var(--bdr);position:sticky;top:0;height:100svh;display:flex;flex-direction:column;justify-content:space-between;}
 .crit-pin-title{font-family:'Bebas Neue',sans-serif;font-size:clamp(36px,5vw,68px);color:var(--y);line-height:.9;}
@@ -151,7 +151,7 @@ body{background:var(--w);color:var(--k);font-family:'Space Mono',monospace;overf
 .crit-body{font-size:clamp(10px,1.2vw,13px);line-height:1.9;opacity:.65;}
 .crit-badge{display:inline-block;margin-top:11px;background:var(--k);color:var(--y);font-size:9px;letter-spacing:2px;padding:4px 10px;text-transform:uppercase;}
 
-/* ═══ PROCESS TIMELINE ═══ */
+/* âââ PROCESS TIMELINE âââ */
 .process{border-bottom:var(--bdr);}
 .process-head{display:grid;grid-template-columns:1fr 1fr;border-bottom:var(--bdr);}
 .ph-l{padding:clamp(28px,5vw,60px) clamp(16px,4vw,48px);border-right:var(--bdr);}
@@ -168,7 +168,7 @@ body{background:var(--w);color:var(--k);font-family:'Space Mono',monospace;overf
 .step-desc{font-size:clamp(10px,1.1vw,12px);line-height:1.8;opacity:.55;}
 .step-emoji{font-size:clamp(20px,2.5vw,30px);display:block;margin-bottom:10px;}
 
-/* ═══ PERKS ═══ */
+/* âââ PERKS âââ */
 .perks{border-bottom:var(--bdr);}
 .perks-head{background:var(--k);color:var(--w);padding:clamp(28px,4vw,56px) clamp(16px,4vw,48px);border-bottom:var(--bdr);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;}
 .perks-head-title{font-family:'Bebas Neue',sans-serif;font-size:clamp(36px,6vw,84px);line-height:.9;color:var(--y);}
@@ -182,7 +182,7 @@ body{background:var(--w);color:var(--k);font-family:'Space Mono',monospace;overf
 .perk-title{font-family:'Oswald',sans-serif;font-size:clamp(14px,1.8vw,20px);font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;}
 .perk-desc{font-size:clamp(10px,1.1vw,12px);line-height:1.8;opacity:.6;}
 
-/* ═══ FAQ ═══ */
+/* âââ FAQ âââ */
 .faq{border-bottom:var(--bdr);}
 .faq-head{display:grid;grid-template-columns:1fr 1fr;border-bottom:var(--bdr);}
 .fq-l{padding:clamp(28px,5vw,60px) clamp(16px,4vw,48px);border-right:var(--bdr);background:var(--r);color:#fff;}
@@ -199,7 +199,7 @@ body{background:var(--w);color:var(--k);font-family:'Space Mono',monospace;overf
 .faq-a{display:none;padding:0 clamp(16px,4vw,48px) clamp(18px,2.5vw,28px);font-size:clamp(11px,1.3vw,13px);line-height:1.9;opacity:.65;border-top:2px solid rgba(0,0,0,.08);}
 .faq-item.open .faq-a{display:block;}
 
-/* ═══ DEV BLOCK ═══ */
+/* âââ DEV BLOCK âââ */
 .dev{background:var(--k);color:#fff;border-bottom:var(--bdr);}
 .dev-grid{display:grid;grid-template-columns:1fr 1fr;}
 .dev-l{padding:clamp(36px,5vw,78px) clamp(16px,4vw,54px);border-right:2px solid rgba(255,255,255,.08);}
@@ -212,9 +212,9 @@ body{background:var(--w);color:var(--k);font-family:'Space Mono',monospace;overf
 .req:last-child{border-bottom:none;}
 .req::before{content:'//';color:var(--r);font-weight:700;flex-shrink:0;margin-top:1px;}
 .warnbar{background:var(--r);color:#fff;padding:clamp(12px,2vw,18px) clamp(16px,4vw,54px);font-family:'Bebas Neue',sans-serif;font-size:clamp(12px,2.5vw,20px);letter-spacing:2px;display:flex;align-items:center;gap:14px;border-top:2px solid rgba(255,255,255,.12);}
-.warnbar::before{content:'⚠';font-size:1.4em;}
+.warnbar::before{content:'â ';font-size:1.4em;}
 
-/* ═══ APPLY ═══ */
+/* âââ APPLY âââ */
 .apply-wrap{display:grid;grid-template-columns:1fr 1fr;border-bottom:var(--bdr);}
 .apply-l{background:var(--y);padding:clamp(34px,5vw,78px) clamp(16px,4vw,54px);border-right:var(--bdr);display:flex;flex-direction:column;justify-content:space-between;gap:28px;}
 .apply-title{font-family:'Bebas Neue',sans-serif;font-size:clamp(46px,7vw,104px);line-height:.85;color:var(--k);}
@@ -233,7 +233,7 @@ body{background:var(--w);color:var(--k);font-family:'Space Mono',monospace;overf
 .fsub:hover{background:var(--r);transform:translate(-3px,-3px);box-shadow:5px 5px 0 var(--k);}
 .fsub:active{transform:none;box-shadow:none;}
 
-/* ═══ SUCCESS SCREEN ═══ */
+/* âââ SUCCESS SCREEN âââ */
 .success-screen{display:none;position:fixed;inset:0;background:var(--r);z-index:8000;align-items:center;justify-content:center;flex-direction:column;text-align:center;padding:32px;}
 .success-screen.on{display:flex;animation:fadeIn .3s ease both;}
 @keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
@@ -243,13 +243,13 @@ body{background:var(--w);color:var(--k);font-family:'Space Mono',monospace;overf
 .s-close{margin-top:28px;background:var(--y);color:var(--k);border:none;font-family:'Bebas Neue',sans-serif;font-size:17px;letter-spacing:3px;padding:14px 36px;cursor:pointer;animation:pop .5s cubic-bezier(.34,1.56,.64,1) .45s both;}
 @keyframes pop{from{opacity:0;transform:scale(.5);}to{opacity:1;transform:scale(1);}}
 
-/* ═══ FOOTER ═══ */
+/* âââ FOOTER âââ */
 footer{background:var(--k);color:#fff;padding:clamp(34px,5vw,58px) clamp(16px,4vw,54px);display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:end;border-top:var(--bdr);}
 .fname{font-family:'Bebas Neue',sans-serif;font-size:clamp(24px,4.5vw,48px);line-height:.9;color:var(--y);}
 .fmeta{font-size:11px;opacity:.28;margin-top:10px;line-height:1.9;}
 .fr{text-align:right;font-size:11px;opacity:.3;line-height:2;}
 
-/* ═══ RESPONSIVE ═══ */
+/* âââ RESPONSIVE âââ */
 @media(max-width:900px){
   .hero{grid-template-columns:1fr;}
   .hero-l{border-right:none;border-bottom:var(--bdr);}
@@ -310,18 +310,18 @@ footer{background:var(--k);color:#fff;padding:clamp(34px,5vw,58px) clamp(16px,4v
 <div id="cur"></div>
 <div id="curI"></div>
 
-<!-- ═══ TICKER ═══ -->
+<!-- âââ TICKER âââ -->
 <div class="ticker" aria-hidden="true">
   <div class="t-track">
     <span>WE'RE HIRING</span><span>ENGINEERS ONLY</span><span>TELANGANA CHICKEN SHOP ASSOCIATION</span><span>JOIN THE FLOCK</span><span>UNEMPLOYED? PERFECT</span><span>CARNATIC SKILLS VALUED</span><span>HYDERABAD</span><span>CLUCK YEAH</span><span>WE'RE HIRING</span><span>ENGINEERS ONLY</span><span>TELANGANA CHICKEN SHOP ASSOCIATION</span><span>JOIN THE FLOCK</span><span>UNEMPLOYED? PERFECT</span><span>CARNATIC SKILLS VALUED</span><span>HYDERABAD</span><span>CLUCK YEAH</span>
   </div>
 </div>
 
-<!-- ═══ HERO ═══ -->
+<!-- âââ HERO âââ -->
 <section class="hero">
   <div class="hero-l">
     <div>
-      <div class="eyebrow">🐔 Telangana Chicken Shop Association — Careers 2024</div>
+      <div class="eyebrow">ð Telangana Chicken Shop Association â Careers 2024</div>
       <h1 class="hero-h1">
         <span class="red">JOIN</span>
         THE<br>
@@ -331,7 +331,7 @@ footer{background:var(--k);color:#fff;padding:clamp(34px,5vw,58px) clamp(16px,4v
     <div>
       <p class="hero-desc">The most powerful poultry trade body in Telangana is building its digital army. Engineers only. Unemployed preferred. Carnatic skills loved. <strong>No nonsense. All chicken.</strong></p>
       <br>
-      <a href="#apply" class="hero-cta">APPLY NOW →</a>
+      <a href="#apply" class="hero-cta">APPLY NOW â</a>
     </div>
   </div>
   <div class="hero-r">
@@ -344,23 +344,23 @@ footer{background:var(--k);color:#fff;padding:clamp(34px,5vw,58px) clamp(16px,4v
   </div>
 </section>
 
-<!-- ═══ CHICKEN PARADE ═══ -->
+<!-- âââ CHICKEN PARADE âââ -->
 <div class="parade" aria-hidden="true">
   <div class="p-track">
-    <span>🐔</span><span>🍗</span><span>🐣</span><span>🍖</span><span>🐓</span><span>🍗</span><span>🐔</span><span>🍖</span><span>🐣</span><span>🍗</span><span>🐓</span><span>🐔</span><span>🍗</span><span>🐣</span><span>🍖</span><span>🐓</span><span>🍗</span><span>🐔</span><span>🍖</span><span>🐣</span><span>🍗</span><span>🐓</span><span>🐔</span><span>🍗</span><span>🐣</span><span>🍖</span><span>🐓</span><span>🍗</span><span>🐔</span><span>🍖</span><span>🐣</span><span>🍗</span><span>🐓</span><span>🐔</span><span>🍗</span><span>🐣</span><span>🍖</span><span>🐓</span><span>🍗</span><span>🐔</span><span>🍖</span><span>🐣</span><span>🍗</span><span>🐓</span>
+    <span>ð</span><span>ð</span><span>ð£</span><span>ð</span><span>ð</span><span>ð</span><span>ð</span><span>ð</span><span>ð£</span><span>ð</span><span>ð</span><span>ð</span><span>ð</span><span>ð£</span><span>ð</span><span>ð</span><span>ð</span><span>ð</span><span>ð</span><span>ð£</span><span>ð</span><span>ð</span><span>ð</span><span>ð</span><span>ð£</span><span>ð</span><span>ð</span><span>ð</span><span>ð</span><span>ð</span><span>ð£</span><span>ð</span><span>ð</span><span>ð</span><span>ð</span><span>ð£</span><span>ð</span><span>ð</span><span>ð</span><span>ð</span><span>ð</span><span>ð£</span><span>ð</span><span>ð</span>
   </div>
 </div>
 
-<!-- ═══ MANIFESTO ═══ -->
+<!-- âââ MANIFESTO âââ -->
 <div class="manifesto sr">
-  <div class="mline"><span class="mnum">01</span><span class="mtext">We sell <em>CHICKEN.</em></span><span class="micon">🐔</span></div>
-  <div class="mline"><span class="mnum">02</span><span class="mtext">We hire <em>ENGINEERS.</em></span><span class="micon">💻</span></div>
-  <div class="mline"><span class="mnum">03</span><span class="mtext">You must be <em>UNEMPLOYED.</em></span><span class="micon">📋</span></div>
-  <div class="mline"><span class="mnum">04</span><span class="mtext">Carnatic skills <em>PREFERRED.</em></span><span class="micon">🎵</span></div>
-  <div class="mline"><span class="mnum">05</span><span class="mtext">This is your <em>DESTINY.</em></span><span class="micon">🍗</span></div>
+  <div class="mline"><span class="mnum">01</span><span class="mtext">We sell <em>CHICKEN.</em></span><span class="micon">ð</span></div>
+  <div class="mline"><span class="mnum">02</span><span class="mtext">We hire <em>ENGINEERS.</em></span><span class="micon">ð»</span></div>
+  <div class="mline"><span class="mnum">03</span><span class="mtext">You must be <em>UNEMPLOYED.</em></span><span class="micon">ð</span></div>
+  <div class="mline"><span class="mnum">04</span><span class="mtext">Carnatic skills <em>PREFERRED.</em></span><span class="micon">ðµ</span></div>
+  <div class="mline"><span class="mnum">05</span><span class="mtext">This is your <em>DESTINY.</em></span><span class="micon">ð</span></div>
 </div>
 
-<!-- ═══ STATS ═══ -->
+<!-- âââ STATS âââ -->
 <div class="stats sr">
   <div class="stat-block">
     <div class="stat-num" data-target="4200">0</div>
@@ -375,12 +375,12 @@ footer{background:var(--k);color:#fff;padding:clamp(34px,5vw,58px) clamp(16px,4v
     <div class="stat-label">Open Roles<br>Right Now</div>
   </div>
   <div class="stat-block">
-    <div class="stat-num" data-target="0">🐔</div>
+    <div class="stat-num" data-target="0">ð</div>
     <div class="stat-label">Tolerance for<br>Non-Engineers</div>
   </div>
 </div>
 
-<!-- ═══ GALLERY ═══ -->
+<!-- âââ GALLERY âââ -->
 <div class="gallery sr">
   <div class="gimg">
     <img src="https://images.unsplash.com/photo-1518492104633-130d0cc84637?w=400&q=75&fit=crop" alt="Chickens" loading="lazy">
@@ -400,28 +400,28 @@ footer{background:var(--k);color:#fff;padding:clamp(34px,5vw,58px) clamp(16px,4v
   </div>
 </div>
 
-<!-- ═══ SCROLLYTELLING ═══ -->
+<!-- âââ SCROLLYTELLING âââ -->
 <div class="scrolly">
   <div class="sy-sticky">
     <div class="sy-bg" id="sy-bg"></div>
     <div class="sy-content">
       <div class="sy-step on" id="sy0">
-        <span class="sy-emoji">🐔</span>
+        <span class="sy-emoji">ð</span>
         <div class="sy-big" style="color:var(--k)">IMAGINE<br>A WORLD</div>
         <p class="sy-sub" style="color:var(--k)">Where the chicken shop has a brand manager.<br>Where the curry counter runs on microservices.</p>
       </div>
       <div class="sy-step" id="sy1">
-        <span class="sy-emoji">🍗</span>
+        <span class="sy-emoji">ð</span>
         <div class="sy-big" style="color:#fff">YOU.<br>US.<br>CHICKEN.</div>
         <p class="sy-sub" style="color:rgba(255,255,255,.75)">4 roles. 1 mission. Infinite handi.</p>
       </div>
       <div class="sy-step" id="sy2">
-        <span class="sy-emoji">💼</span>
+        <span class="sy-emoji">ð¼</span>
         <div class="sy-big" style="color:var(--y)">NO JOB?<br>NO<br>PROBLEM.</div>
         <p class="sy-sub" style="color:rgba(255,230,0,.8)">Unemployed engineers are our preferred species.</p>
       </div>
       <div class="sy-step" id="sy3">
-        <span class="sy-emoji">🎵</span>
+        <span class="sy-emoji">ðµ</span>
         <div class="sy-big" style="color:var(--k)">RAGA +<br>CODE =<br>HIRED.</div>
         <p class="sy-sub" style="color:var(--k)">Carnatic training. Engineering degree. Poultry passion.</p>
       </div>
@@ -435,7 +435,7 @@ footer{background:var(--k);color:#fff;padding:clamp(34px,5vw,58px) clamp(16px,4v
   </div>
 </div>
 
-<!-- ═══ OPEN ROLES ═══ -->
+<!-- âââ OPEN ROLES âââ -->
 <section class="sr">
   <div class="roles-head">
     <div class="rh-l">
@@ -447,46 +447,46 @@ footer{background:var(--k);color:#fff;padding:clamp(34px,5vw,58px) clamp(16px,4v
   <div class="roles-grid">
     <div class="rb">
       <div class="rb-bgnum">01</div>
-      <span class="rb-emoji">📣</span>
+      <span class="rb-emoji">ð£</span>
       <div class="rb-name">Brand Manager</div>
       <p class="rb-desc">Own the TCSA voice. Make chicken shop culture feel like a movement. Strategy, identity, a deep love for the product.</p>
       <div class="rb-pills"><span>Internship</span><span>Hybrid</span></div>
-      <a href="#apply" class="rb-arrow">APPLY →</a>
+      <a href="#apply" class="rb-arrow">APPLY â</a>
     </div>
     <div class="rb">
       <div class="rb-bgnum">02</div>
-      <span class="rb-emoji">🎬</span>
+      <span class="rb-emoji">ð¬</span>
       <div class="rb-name">Content Creator</div>
       <p class="rb-desc">Reels, memes, viral moments. Tell the TCSA story frame by frame with spice and urgency.</p>
       <div class="rb-pills"><span>Internship</span><span>Remote OK</span></div>
-      <a href="#apply" class="rb-arrow">APPLY →</a>
+      <a href="#apply" class="rb-arrow">APPLY â</a>
     </div>
     <div class="rb">
       <div class="rb-bgnum">03</div>
-      <span class="rb-emoji">📊</span>
+      <span class="rb-emoji">ð</span>
       <div class="rb-name">Marketing Specialist</div>
       <p class="rb-desc">Campaigns, SEO, paid ads, activations. Put every chicken shop in Telangana on the map.</p>
       <div class="rb-pills"><span>Internship</span><span>On-Site</span></div>
-      <a href="#apply" class="rb-arrow">APPLY →</a>
+      <a href="#apply" class="rb-arrow">APPLY â</a>
     </div>
     <div class="rb">
       <div class="rb-bgnum">04</div>
-      <span class="rb-emoji">💻</span>
+      <span class="rb-emoji">ð»</span>
       <div class="rb-name">Software Developer</div>
-      <p class="rb-desc">Build the digital spine of Indian poultry commerce. 2–3 yrs experience required. Engineers only.</p>
-      <div class="rb-pills"><span>Engineers Only</span><span>2–3 Yrs</span></div>
-      <a href="#apply" class="rb-arrow">APPLY →</a>
+      <p class="rb-desc">Build the digital spine of Indian poultry commerce. 2â3 yrs experience required. Engineers only.</p>
+      <div class="rb-pills"><span>Engineers Only</span><span>2â3 Yrs</span></div>
+      <a href="#apply" class="rb-arrow">APPLY â</a>
     </div>
   </div>
 </section>
 
-<!-- ═══ PHOTO DIVIDER ═══ -->
+<!-- âââ PHOTO DIVIDER âââ -->
 <div class="phdiv sr">
   <img src="https://images.unsplash.com/photo-1559684071-2d64b03b8ef4?w=1400&q=75&fit=crop" alt="Chicken shop Telangana" loading="lazy">
   <div class="phdiv-txt"><span>TELANGANA'S<br>FINEST.</span></div>
 </div>
 
-<!-- ═══ CRITERIA ═══ -->
+<!-- âââ CRITERIA âââ -->
 <section class="crit-wrap sr">
   <div class="crit-pin">
     <div class="crit-pin-title">THE<br>FOUR<br>LAWS.</div>
@@ -497,23 +497,23 @@ footer{background:var(--k);color:#fff;padding:clamp(34px,5vw,58px) clamp(16px,4v
   </div>
   <div>
     <div class="crit">
-      <div class="crit-icon">🎓</div>
+      <div class="crit-icon">ð</div>
       <div>
         <div class="crit-title">Engineering Degree. Mandatory.</div>
-        <p class="crit-body">B.Tech, B.E., or equivalent from a recognised institution. Arts grads and MBAs — we respect you, but not here. The chicken demands structure and the ability to write a for-loop.</p>
+        <p class="crit-body">B.Tech, B.E., or equivalent from a recognised institution. Arts grads and MBAs â we respect you, but not here. The chicken demands structure and the ability to write a for-loop.</p>
         <span class="crit-badge">NON-NEGOTIABLE</span>
       </div>
     </div>
     <div class="crit">
-      <div class="crit-icon">🐔</div>
+      <div class="crit-icon">ð</div>
       <div>
         <div class="crit-title">Currently Unemployed. Preferred.</div>
-        <p class="crit-body">We don't want your half-attention. We want your full, undivided, slightly desperate focus. Between jobs, between dreams, between lunch and your next application — this is your moment.</p>
+        <p class="crit-body">We don't want your half-attention. We want your full, undivided, slightly desperate focus. Between jobs, between dreams, between lunch and your next application â this is your moment.</p>
         <span class="crit-badge">STRONGLY PREFERRED</span>
       </div>
     </div>
     <div class="crit">
-      <div class="crit-icon">🎵</div>
+      <div class="crit-icon">ðµ</div>
       <div>
         <div class="crit-title">Carnatic Music Skills. Serious Plus.</div>
         <p class="crit-body">Carnatic training teaches discipline, rhythm, and pattern recognition. Kalpanaswara is basically recursion. Veena players make exceptional backend developers. This is not a joke.</p>
@@ -521,7 +521,7 @@ footer{background:var(--k);color:#fff;padding:clamp(34px,5vw,58px) clamp(16px,4v
       </div>
     </div>
     <div class="crit">
-      <div class="crit-icon">🍗</div>
+      <div class="crit-icon">ð</div>
       <div>
         <div class="crit-title">A Love for the Product.</div>
         <p class="crit-body">TCSA represents thousands of small shop owners across Telangana. Your work impacts their livelihoods. You don't have to eat chicken. But you must respect what it means to the people who sell it.</p>
@@ -531,7 +531,7 @@ footer{background:var(--k);color:#fff;padding:clamp(34px,5vw,58px) clamp(16px,4v
   </div>
 </section>
 
-<!-- ═══ PROCESS TIMELINE ═══ -->
+<!-- âââ PROCESS TIMELINE âââ -->
 <section class="process sr">
   <div class="process-head">
     <div class="ph-l">
@@ -544,31 +544,31 @@ footer{background:var(--k);color:#fff;padding:clamp(34px,5vw,58px) clamp(16px,4v
   </div>
   <div class="steps-grid">
     <div class="step-block">
-      <span class="step-emoji">📝</span>
+      <span class="step-emoji">ð</span>
       <div class="step-n">01</div>
       <div class="step-title">Apply Online</div>
-      <p class="step-desc">Fill in the form below. Be honest. We read every application personally — no ATS bots here.</p>
+      <p class="step-desc">Fill in the form below. Be honest. We read every application personally â no ATS bots here.</p>
     </div>
     <div class="step-block">
-      <span class="step-emoji">📞</span>
+      <span class="step-emoji">ð</span>
       <div class="step-n">02</div>
       <div class="step-title">Quick Screen</div>
       <p class="step-desc">A 20-minute call. We check your degree, your availability, and optionally your raga knowledge.</p>
     </div>
     <div class="step-block">
-      <span class="step-emoji">🧪</span>
+      <span class="step-emoji">ð§ª</span>
       <div class="step-n">03</div>
       <div class="step-title">Task Round</div>
       <p class="step-desc">One practical assignment. No LeetCode. No trick questions. Just real work, like you'd actually do here.</p>
     </div>
     <div class="step-block">
-      <span class="step-emoji">🐔</span>
+      <span class="step-emoji">ð</span>
       <div class="step-n">04</div>
       <div class="step-title">Meet the Flock</div>
       <p class="step-desc">In-person or video chat with the founding team. We want to know who you are, not just what you can do.</p>
     </div>
     <div class="step-block">
-      <span class="step-emoji">🎉</span>
+      <span class="step-emoji">ð</span>
       <div class="step-n">05</div>
       <div class="step-title">Offer Letter</div>
       <p class="step-desc">If it's a yes, you get an offer within 48 hours. Welcome to the most important poultry tech team in India.</p>
@@ -576,7 +576,7 @@ footer{background:var(--k);color:#fff;padding:clamp(34px,5vw,58px) clamp(16px,4v
   </div>
 </section>
 
-<!-- ═══ PERKS ═══ -->
+<!-- âââ PERKS âââ -->
 <section class="perks sr">
   <div class="perks-head">
     <div class="perks-head-title">WHAT<br>YOU GET.</div>
@@ -584,66 +584,66 @@ footer{background:var(--k);color:#fff;padding:clamp(34px,5vw,58px) clamp(16px,4v
   </div>
   <div class="perks-grid">
     <div class="perk">
-      <span class="perk-icon">🍗</span>
+      <span class="perk-icon">ð</span>
       <div class="perk-title">Free Chicken Fridays</div>
       <p class="perk-desc">Every Friday, we order from a different TCSA member shop. It's a perk. It's market research. It's both.</p>
     </div>
     <div class="perk">
-      <span class="perk-icon">📚</span>
+      <span class="perk-icon">ð</span>
       <div class="perk-title">Learning Budget</div>
-      <p class="perk-desc">₹10,000/year for courses, books, or workshops. Use it. We mean it. A growing team needs growing people.</p>
+      <p class="perk-desc">â¹10,000/year for courses, books, or workshops. Use it. We mean it. A growing team needs growing people.</p>
     </div>
     <div class="perk">
-      <span class="perk-icon">🕐</span>
+      <span class="perk-icon">ð</span>
       <div class="perk-title">Flexible Hours</div>
-      <p class="perk-desc">We care about output, not when you clock in. Core hours 11am–4pm. The rest is yours to manage.</p>
+      <p class="perk-desc">We care about output, not when you clock in. Core hours 11amâ4pm. The rest is yours to manage.</p>
     </div>
     <div class="perk">
-      <span class="perk-icon">🏠</span>
+      <span class="perk-icon">ð </span>
       <div class="perk-title">Hybrid Work</div>
       <p class="perk-desc">Most roles are 3 days in-office, 2 remote. Software developer is fully hybrid. Show up when it counts.</p>
     </div>
     <div class="perk">
-      <span class="perk-icon">🎓</span>
+      <span class="perk-icon">ð</span>
       <div class="perk-title">Mentorship Access</div>
       <p class="perk-desc">You'll work directly with our founding team. No middle layers. No bureaucracy. Real mentorship, not the LinkedIn kind.</p>
     </div>
     <div class="perk">
-      <span class="perk-icon">🚀</span>
+      <span class="perk-icon">ð</span>
       <div class="perk-title">Full-Time Path</div>
       <p class="perk-desc">Top interns get first right of refusal on full-time roles. Build something real, and we'll want you to keep building it.</p>
     </div>
   </div>
 </section>
 
-<!-- ═══ DEVELOPER BLOCK ═══ -->
+<!-- âââ DEVELOPER BLOCK âââ -->
 <div class="dev sr">
   <div class="dev-grid">
     <div class="dev-l">
       <div class="dev-eyebrow">// For Developers Only</div>
       <div class="dev-title">TECH<br><span>SPECS.</span></div>
-      <div class="dev-chix" aria-label="chickens">🐔🐔🍗🐓🐣</div>
+      <div class="dev-chix" aria-label="chickens">ððððð£</div>
       <p style="font-size:12px;line-height:1.9;opacity:.45;margin-top:22px;max-width:320px">
         Building member portals, inventory systems, mobile apps, and analytics dashboards. Real product. Real impact. Thousands of chicken shops are counting on you.
       </p>
     </div>
     <div class="dev-r">
-      <div class="req">Minimum 2–3 years of professional software development experience</div>
+      <div class="req">Minimum 2â3 years of professional software development experience</div>
       <div class="req">B.Tech / B.E. in CS, IT, ECE or related engineering field</div>
-      <div class="req">Proficiency in at least one modern stack (React, Next.js, Vue…)</div>
+      <div class="req">Proficiency in at least one modern stack (React, Next.js, Vueâ¦)</div>
       <div class="req">Backend experience in Node.js, Python, Django or similar</div>
-      <div class="req">Database design — SQL or NoSQL, you choose, we review</div>
-      <div class="req">Ability to work independently — we're not a babysitting service</div>
-      <div class="req">Currently unemployed — 100% of your brain, please</div>
-      <div class="req">Carnatic music background is a deeply genuine bonus 🎵</div>
+      <div class="req">Database design â SQL or NoSQL, you choose, we review</div>
+      <div class="req">Ability to work independently â we're not a babysitting service</div>
+      <div class="req">Currently unemployed â 100% of your brain, please</div>
+      <div class="req">Carnatic music background is a deeply genuine bonus ðµ</div>
     </div>
   </div>
   <div class="warnbar">
-    STRICTLY ENGINEERS ONLY — NON-ENGINEERS WILL BE COMPOSTED
+    STRICTLY ENGINEERS ONLY â NON-ENGINEERS WILL BE COMPOSTED
   </div>
 </div>
 
-<!-- ═══ FAQ ═══ -->
+<!-- âââ FAQ âââ -->
 <section class="faq sr">
   <div class="faq-head">
     <div class="fq-l">
@@ -660,7 +660,7 @@ footer{background:var(--k);color:#fff;padding:clamp(34px,5vw,58px) clamp(16px,4v
         <span class="faq-q-text">Do I really need an engineering degree for Brand Manager?</span>
         <span class="faq-toggle">+</span>
       </div>
-      <div class="faq-a">Yes. We know it sounds unusual for a brand role, but TCSA operates at the intersection of commerce, logistics, and digital infrastructure. We've found that engineers approach brand problems differently — with systems thinking and rigour. It works for us.</div>
+      <div class="faq-a">Yes. We know it sounds unusual for a brand role, but TCSA operates at the intersection of commerce, logistics, and digital infrastructure. We've found that engineers approach brand problems differently â with systems thinking and rigour. It works for us.</div>
     </div>
     <div class="faq-item">
       <div class="faq-q" onclick="toggleFaq(this)">
@@ -681,14 +681,14 @@ footer{background:var(--k);color:#fff;padding:clamp(34px,5vw,58px) clamp(16px,4v
         <span class="faq-q-text">Is this a real organisation? Do you actually sell chicken?</span>
         <span class="faq-toggle">+</span>
       </div>
-      <div class="faq-a">The Telangana Chicken Shop Association represents thousands of independent poultry retailers and wet market vendors across all 33 districts of Telangana. We don't sell chicken ourselves — we represent and support the people who do. Think of us as a chamber of commerce, but for poultry and with better branding.</div>
+      <div class="faq-a">The Telangana Chicken Shop Association represents thousands of independent poultry retailers and wet market vendors across all 33 districts of Telangana. We don't sell chicken ourselves â we represent and support the people who do. Think of us as a chamber of commerce, but for poultry and with better branding.</div>
     </div>
     <div class="faq-item">
       <div class="faq-q" onclick="toggleFaq(this)">
         <span class="faq-q-text">What does a typical day look like as an intern?</span>
         <span class="faq-toggle">+</span>
       </div>
-      <div class="faq-a">Real work from day one. No coffee runs. No sorting files. You'll be embedded in an actual project with deadlines, stakeholder meetings, and deliverables that ship to real users. We treat interns as junior full-timers — with support, but also responsibility.</div>
+      <div class="faq-a">Real work from day one. No coffee runs. No sorting files. You'll be embedded in an actual project with deadlines, stakeholder meetings, and deliverables that ship to real users. We treat interns as junior full-timers â with support, but also responsibility.</div>
     </div>
     <div class="faq-item">
       <div class="faq-q" onclick="toggleFaq(this)">
@@ -700,14 +700,14 @@ footer{background:var(--k);color:#fff;padding:clamp(34px,5vw,58px) clamp(16px,4v
   </div>
 </section>
 
-<!-- ═══ APPLY ═══ -->
+<!-- âââ APPLY âââ -->
 <section class="apply-wrap sr" id="apply">
   <div class="apply-l">
     <div>
       <div style="font-size:10px;letter-spacing:3px;text-transform:uppercase;opacity:.5;margin-bottom:10px">Apply Now</div>
       <div class="apply-title">SEND<br>US<br>YOUR<br>SOUL.</div>
     </div>
-    <div class="apply-chix" aria-label="chickens">🐔🐔🐔<br>🍗🍗🍗<br>🐣🐣🐣</div>
+    <div class="apply-chix" aria-label="chickens">ððð<br>ððð<br>ð£ð£ð£</div>
     <div class="apply-meta">
       Telangana Chicken Shop Association<br>
       Hyderabad, Telangana, India<br>
@@ -716,7 +716,7 @@ footer{background:var(--k);color:#fff;padding:clamp(34px,5vw,58px) clamp(16px,4v
     </div>
   </div>
   <div class="apply-r">
-    <form id="fwrap" method="POST" action="https://formspree.io/f/YOUR_FORM_ID">
+    <form id="fwrap" method="POST" action="https://formspree.io/f/mzdyzjwo">
       <div class="frow">
         <div class="fg"><label>First Name</label><input class="fi" type="text" name="first_name" placeholder="Ravi"></div>
         <div class="fg"><label>Last Name</label><input class="fi" type="text" name="last_name" placeholder="Reddy"></div>
@@ -729,7 +729,7 @@ footer{background:var(--k);color:#fff;padding:clamp(34px,5vw,58px) clamp(16px,4v
       <div class="fg">
         <label>Role Applying For</label>
         <select class="fs" name="role">
-          <option value="">— Select a role —</option>
+          <option value="">â Select a role â</option>
           <option>Brand Manager</option>
           <option>Content Creator</option>
           <option>Marketing Specialist</option>
@@ -745,46 +745,46 @@ footer{background:var(--k);color:#fff;padding:clamp(34px,5vw,58px) clamp(16px,4v
         <div class="fg">
           <label>Employment Status</label>
           <select class="fs" name="employment_status">
-            <option value="">— Select —</option>
-            <option>Unemployed ✓ (preferred)</option>
-            <option>Employed — quitting immediately</option>
+            <option value="">â Select â</option>
+            <option>Unemployed â (preferred)</option>
+            <option>Employed â quitting immediately</option>
             <option>Freelancing</option>
           </select>
         </div>
       </div>
       <div class="fg"><label>Portfolio / GitHub / LinkedIn URL</label><input class="fi" type="url" name="portfolio_url" placeholder="https://github.com/yourname"></div>
-      <div class="fg"><label>Carnatic Music Experience (Optional but Loved)</label><input class="fi" type="text" name="carnatic_experience" placeholder="e.g. 8 yrs Veena, Mridangam, Carnatic Vocal…"></div>
-      <div class="fg"><label>Why TCSA? Be Honest.</label><textarea class="ft" name="why_tcsa" placeholder="Tell us why you want to work for a chicken shop association…"></textarea></div>
-      <button class="fsub" type="submit" onclick="submitApp(event)">🐔 SUBMIT APPLICATION →</button>
+      <div class="fg"><label>Carnatic Music Experience (Optional but Loved)</label><input class="fi" type="text" name="carnatic_experience" placeholder="e.g. 8 yrs Veena, Mridangam, Carnatic Vocalâ¦"></div>
+      <div class="fg"><label>Why TCSA? Be Honest.</label><textarea class="ft" name="why_tcsa" placeholder="Tell us why you want to work for a chicken shop associationâ¦"></textarea></div>
+      <button class="fsub" type="submit" onclick="submitApp(event)">ð SUBMIT APPLICATION â</button>
     </form>
   </div>
 </section>
 
-<!-- ═══ FOOTER ═══ -->
+<!-- âââ FOOTER âââ -->
 <footer>
   <div>
     <div class="fname">TELANGANA<br>CHICKEN<br>SHOP<br>ASSOC.</div>
-    <div class="fmeta">Hyderabad, Telangana, India<br>© 2024 TCSA. All rights reserved.<br>Building the future of poultry commerce. 🐔</div>
+    <div class="fmeta">Hyderabad, Telangana, India<br>Â© 2024 TCSA. All rights reserved.<br>Building the future of poultry commerce. ð</div>
   </div>
   <div class="fr">
     careers [at] tcsa.in<br>
     Engineers only<br>
     Unemployed preferred<br>
     Carnatic skills valued<br>
-    🍗🍗🍗
+    ððð
   </div>
 </footer>
 
-<!-- ═══ SUCCESS ═══ -->
+<!-- âââ SUCCESS âââ -->
 <div class="success-screen" id="success">
   <div class="s-big">YOU'RE<br>IN THE<br>FLOCK.</div>
-  <div class="s-chix">🐔🐣🍗🐓🍗🐣🐔</div>
-  <div class="s-sub">Application received. Our team reviews every one personally.<br>Expect a response within 5–7 business days. Stay clucky.</div>
-  <button class="s-close" onclick="document.getElementById('success').classList.remove('on')">CLOSE ✕</button>
+  <div class="s-chix">ðð£ðððð£ð</div>
+  <div class="s-sub">Application received. Our team reviews every one personally.<br>Expect a response within 5â7 business days. Stay clucky.</div>
+  <button class="s-close" onclick="document.getElementById('success').classList.remove('on')">CLOSE â</button>
 </div>
 
 <script>
-/* ── CURSOR ── */
+/* ââ CURSOR ââ */
 (function(){
   if(!window.matchMedia('(pointer:fine)').matches) return;
   var c=document.getElementById('cur'), ci=document.getElementById('curI');
@@ -803,7 +803,7 @@ footer{background:var(--k);color:#fff;padding:clamp(34px,5vw,58px) clamp(16px,4v
   });
 })();
 
-/* ── SCROLL REVEAL ── */
+/* ââ SCROLL REVEAL ââ */
 (function(){
   var obs=new IntersectionObserver(function(entries){
     entries.forEach(function(e){ if(e.isIntersecting) e.target.classList.add('on'); });
@@ -811,7 +811,7 @@ footer{background:var(--k);color:#fff;padding:clamp(34px,5vw,58px) clamp(16px,4v
   document.querySelectorAll('.sr').forEach(function(el){ obs.observe(el); });
 })();
 
-/* ── STATS COUNTER ── */
+/* ââ STATS COUNTER ââ */
 (function(){
   var nums=document.querySelectorAll('.stat-num[data-target]');
   var obs=new IntersectionObserver(function(entries){
@@ -835,7 +835,7 @@ footer{background:var(--k);color:#fff;padding:clamp(34px,5vw,58px) clamp(16px,4v
   nums.forEach(function(el){ obs.observe(el); });
 })();
 
-/* ── SCROLLYTELLING ── */
+/* ââ SCROLLYTELLING ââ */
 (function(){
   var scrollyEl=document.querySelector('.scrolly');
   if(!scrollyEl) return;
@@ -863,7 +863,7 @@ footer{background:var(--k);color:#fff;padding:clamp(34px,5vw,58px) clamp(16px,4v
   },{passive:true});
 })();
 
-/* ── FAQ TOGGLE ── */
+/* ââ FAQ TOGGLE ââ */
 function toggleFaq(btn){
   var item=btn.parentElement;
   var wasOpen=item.classList.contains('open');
@@ -871,14 +871,14 @@ function toggleFaq(btn){
   if(!wasOpen) item.classList.add('open');
 }
 
-/* ── FORM SUBMIT ── */
+/* ââ FORM SUBMIT ââ */
 async function submitApp(e){
   e.preventDefault();
   const form = document.getElementById('fwrap');
   const data = new FormData(form);
   const btn = form.querySelector('.fsub');
   btn.disabled = true;
-  btn.textContent = 'Sending…';
+  btn.textContent = 'Sendingâ¦';
   try {
     const res = await fetch(form.action, {
       method: 'POST',
@@ -893,12 +893,12 @@ async function submitApp(e){
       const json = await res.json();
       alert('Submission failed: ' + (json.errors?.map(e=>e.message).join(', ') || 'Unknown error'));
       btn.disabled = false;
-      btn.textContent = '🐔 SUBMIT APPLICATION →';
+      btn.textContent = 'ð SUBMIT APPLICATION â';
     }
   } catch(err) {
     alert('Network error. Please try again.');
     btn.disabled = false;
-    btn.textContent = '🐔 SUBMIT APPLICATION →';
+    btn.textContent = 'ð SUBMIT APPLICATION â';
   }
 }
 </script>
